@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+.container {
+  margin: 2em;
+}
+
+.nav {
+  position: relative;
+  margin-bottom: 2em;
+  display: flex;
+  height: 40px;
+  width: 100%;
+}
+.nav__burger-btn {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  border: none;
+  background-color: #fff;
+}
+.nav__items {
+  display: none;
+}
+
+.hero-img {
+  width: 100%;
+  margin-bottom: 1em;
+}/*# sourceMappingURL=main.css.map */
