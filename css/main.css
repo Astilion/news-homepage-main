@@ -36,9 +36,15 @@ body {
   background-color: #fff;
   z-index: 10;
   cursor: pointer;
+  z-index: 110;
 }
 .nav__burger-hide {
   display: none;
+}
+.nav__burger--x {
+  position: fixed;
+  top: 4rem;
+  right: 3.5rem;
 }
 .nav__items {
   position: fixed;
@@ -49,7 +55,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  height: 100vh;
+  height: 110vh;
   width: 85%;
   transition: transform 0.5s, opacity 0.5s;
   transform: translateX(100%);
@@ -58,6 +64,7 @@ body {
 .nav .active {
   transform: translateX(0);
   opacity: 1;
+  z-index: 100;
 }
 .nav__item {
   list-style: none;
